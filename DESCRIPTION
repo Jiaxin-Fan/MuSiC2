@@ -1,0 +1,21 @@
+Package: MuSiC2
+Type: Package
+Title: MuSiC2: cell type deconvolution for multi-condition bulk RNA-seq data
+Version: 0.1.0
+Author@R: c(person("Jiaxin", "Fan", email = "jiaxinf@pennmedicine.upenn.edu", role = c("aut", "cre")), person("Xuran", "Wang", email = "xuranw@andrew.cmu.edu", role = "aut"))
+Maintainer: Jiaxin Fan <jiaxinf@pennmedicine.upenn.edu>
+Description: Companion package to: MuSiC2: cell type deconvolution for multi-condition bulk RNA-seq data. This package provides function to perform deconvolution analysis of bulk RNA-seq data generated from samples with multiple clinical conditions where at least one condition is different from that of the scRNA-seq reference.
+Depends: R (>= 3.2)
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    MuSiC
+Suggests: 
+    knitr,
+    rmarkdown
+URL: https://github.com/Jiaxin-Fan/MuSiC2
+BugReports: https://github.com/Jiaxin-Fan/MuSiC2/issues
+VignetteBuilder: knitr
+Roxygen2: 6.1.0
